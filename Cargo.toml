@@ -126,3 +126,8 @@ incremental = false
 [profile.release]
 opt-level = 's'
 strip = "debuginfo"
+
+[patch.crates-io]
+tower = { git = "https://github.com/tower-rs/tower.git", rev = "a1c277bc" }
+tower-layer = { git = "https://github.com/tower-rs/tower.git", rev = "a1c277bc" }
+tower-service = { git = "https://github.com/tower-rs/tower.git", rev = "a1c277bc" }
